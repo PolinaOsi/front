@@ -72,7 +72,7 @@ const Publications = () => {
                 <main className="content">
                     <div className="main-form2">
                         <form className="add" onSubmit={addPublications}>
-                            <p>Добавить пользователя:</p>
+                            <p>Добавить издание:</p>
                             <input type="text" size="15" placeholder="Введите ID" onChange={(e) => setId_publication(e.target.value)}/>
                             <input type="text" size="15" placeholder="Введите название" onChange={(e) => setName(e.target.value)}/>
                             <select onChange={(e) => setCategory(e.target.value)}>

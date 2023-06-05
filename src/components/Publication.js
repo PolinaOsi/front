@@ -43,8 +43,8 @@ const Publication = (props) => {
             <div className="container">
                 <p>{props.props.id_publication}</p>
                 <p>{props.props.name}</p>
-                <p>{props.props.category}</p>
-                <p>{props.props.type}</p>
+                <p>Категория:{props.props.category}</p>
+                <p>Тип:{props.props.type}</p>
                 <p>{props.props.author}</p>
                 <button className="btn2" onClick={handleClick}>Изменить</button>
                 <button className="btn2" onClick={deletePublications}>Удалить</button>
